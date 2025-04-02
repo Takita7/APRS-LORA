@@ -32,6 +32,23 @@ La tecnología de modulación LoRa presenta un componente clave con lo que respe
 
 En la capa física también se presentan los esquemas de modulación y codificación específicos para mejorar la eficiencia espectral y la sensibilidad de recepción presente. Dentro de los esquemas presentes, como lo puede ser el \textit{Chirp Spread Spectrum} (CSS), se busca optimizar la capacidad de la red para así poder detectar y decodificar señales débiles en presencia de ruido y atenuación, lo que logra mejorar la confiabilidad de las comunicaciones a larga distancia.
 
+# Ancho de Banda
+
+Los valores de $BW$ usados comúnmente en LoRaWAN son los de $125 kHz, 250kHz$ y $500kHz$. Este valor afecta directamente la modulación y tiene algunas implicaciones:
+
+**Distancia de trasmisión:** Al utilizar un $BW$ más estrecho, se puede aumentar la sensibilidad del receptor, por lo que se puede extender la distancia a la que se genera la comunicación. Por otra parte, esto puede generar una menor tolerancia a la interferencia.
+
+**Tasa de datos:** Un $BW$ más amplio permite una tasa de datos más alta, por lo tanto se puede trasmitir más información en un mismo periodo de tiempo.
+
+**Capacidad de penetración:** Si se utiliza un $BW$ más estrecho, se puede aumentar la capacidad de la señal de atravesar obstáculos, como lo pueden ser la vegetación o edificios.
+
+# Frecuencia
+
+Por otra parte, este protocolo permite trabajar en distintas bandas de frecuencia, como lo pueden ser $433 MHz$, $868 MHz$ y $915 MHz$, donde esto dependerá de la geografía y las regulaciones que se tengan en el país. La elección de la frecuencia a utilizar afecta de gran manera la cobertura, la capacidad de penetración y la interferencia que pueda estar presente en un área determinada, es por esto que se deben de tomar en cuenta estos últimos factores los cuales se pueden llamar externos, pero también se debe cuidar el uso del hardware a utilizar, puesto que, para lograr una comunicación exitosa, se necesita una buena elección tanto del dispositivo que maneja el módulo LoRa como de la antena encargada de enviar y/o recibir la información deseada.
+Es también en esta capa donde se gestiona la potencia de transmisión y la sensibilidad de la recepción para de esta manera optimizar el rendimiento de la red, por lo que es necesario ajustar la potencia de salida en los dispositivos que transmiten y en las pasarelas para poder garantizar una comunicación de calidad y con el menor consumo de energía posible. 
+
+Además de los aspectos mencionados anteriormente, la capa física presente en LoRaWAN también se influenciada por estándares y normativas relacionadas con regulaciones del espectro, la certificación de los equipos a utilizar y la interoperabilidad de dispositivos, la cual busca que las aplicaciones y los sistemas puedan intercambiar datos de manera segura y automática, dejando atrás los límites geográficos, políticos u organizativos.
+
 ## Implementación
 
 asd
