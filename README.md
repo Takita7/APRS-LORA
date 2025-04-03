@@ -4,7 +4,31 @@ El siguiente repositorio busca....
 
 ## APRS
 
-asd
+El Automatic Packet Reporting System (APRS) es un sistema de comunicación digital utilizado en el ámbito de la radioafición que permite el intercambio de información en tiempo real, como ubicaciones GPS, datos meteorológicos, mensajes cortos o alertas de emergencia. Desarrollado en la década de 1990, combina tecnologías de radio packet y protocolos digitales para crear una red descentralizada y autónoma.
+
+# Historia
+
+APRS nace en 1992 de la mente de Bob Bruninga (WB4APR), el cual era un ingeniero y radioaficionado que buscaba superar las limitaciones de las redes de packet radio de los años 80, ya que estas solo permitían mensajes de texto simples. Inspirado por sistemas militares como el PLRS, decidió adaptar el protocolo AX.25 para incluir datos geográficos, transformándolo en una herramienta para compartir ubicaciones en tiempo real.  Este esfuerzo se basó en su proyecto anterior, APLS, que había desarrollado en 1984 para rastrear vehículos en la Academia Naval, con el tiempo, APRS se convirtió en un sistema abierto y accesible para todos los radioaficionados.
+
+Uno de los tantos momentos clave en la historia de APRS fue durante el Huracán Andrew en 1992, en ese entonces varios radioaficionados en Florida utilizaron el sistema para mapear las áreas afectadas y coordinar la ayuda, demostrando así su gran utilidad en situaciones de emergencia. A medida que avanzaba la tecnología, en los años 2000, APRS se benefició de la integración con GPS y la conexión a internet a través de servidores como APRS-IS, esto permitió que incluso aquellos sin equipos de radio pudieran acceder a la información en línea, lo cuál contribuyó a la utilización de APRS, además, se embarcó en proyectos innovadores, como la retransmisión de datos desde la Estación Espacial Internacional (ISS) y el seguimiento de globos estratosféricos.
+
+# Capa Física
+
+APRS emplea principalmente la modulación AFSK (Audio Frequency-Shift Keying) en FM, utilizando el estándar Bell 202 que opera a 1,200 baudios con tonos de 1,200 Hz y 2,200 Hz. Esta elección permite la compatibilidad con equipos analógicos más antiguos y radios portátiles de bajo costo, como los modelos de Baofengk, para las transmisiones más rápidas se utiliza FSK a 9,600 baudios, conforme a la norma G3RUH, que es común en enlaces UHF o en satélites como la ISS, que funciona como un digipeater.
+
+El hardware esencial para APRS incluye varios componentes clave como el TNC (Terminal Node Controller) que es responsable de convertir señales digitales en tonos audibles, también se utilizan módems de tarjeta de sonido, en donde software como Dire Wolf emula un TNC utilizando la tarjeta de sonido de una computadora. Existen radios inteligentes, como el Kenwood TH-D74, que integran un GPS y un TNC interno.
+
+# Ancho de Banda
+
+El ancho de banda en APRS va de la mano con su técnica de modulación principal: AFSK (Audio Frequency-Shift Keying) como se mencionó anteriormente, en este esquema se ocupa un ancho de banda aproximado de 3-5 kHz, aunque el espacio asignado suele ser de 12.5 kHz o 25 kHz en canales VHF/UHF dependiendo de las regulaciones locales. Esta configuración equilibra la velocidad de transmisión con la necesidad de minimizar interferencias, permitiendo así que múltiples estaciones compartan la misma frecuencia sin solapamientos críticos, siempre que respeten protocolos de temporización y prioridad.
+
+La gestión del ancho de banda en APRS es de suma importancia debido a la naturaleza descentralizada y pública de la red, aunque el sistema está diseñado para ser eficiente, el uso excesivo o configuraciones incorrectas, tales como tasas de transmisión muy altas, pueden saturar el canal, reduciendo  así la efectividad global. En bandas como 2 metros (144-148 MHz), donde APRS es común, la limitación de ancho de banda asegura que otros servicios, tales como voz o datos de alta velocidad coexistan sin problemas. Algunas implementaciones modernas, como APRS-IS (Internet), descargan tráfico a infraestructura en línea, aliviando la carga en el espectro radioeléctrico y optimizando el uso del ancho de banda analógico para fines prioritarios.
+
+# Frecuencia
+
+La frecuencia principal utilizada por el sistema APRS en la mayoría de los países es 144.390 MHz en la banda de 2 metros (VHF) principalmente en América del Norte y varias regiones, esta frecuencia ha sido estandarizada para facilitar la interoperabilidad entre radioaficionados a nivel global, lo que permite un monitoreo efectivo de los paquetes transmitidos. Un ejemplo de ello ocurre en Europa y otras regiones, en donde se pueden encontrar frecuencias como 144.800 MHz adaptándose a las regulaciones locales, si bien APRS puede operar en otras bandas, tales como 70 cm/UHF o incluso en HF, su uso es más común en VHF debido a su balance entre cobertura y ancho de banda. 
+
+La elección de la frecuencia depende de factores tales como la disponibilidad del espectro, las normativas nacionales y el propósito de la comunicación. Por ejemplo, en entornos montañosos o rurales, la propagación en VHF es ideal para cobertura local, mientras que en HF (como 10 metros o 30 metros) se aprovecha para enlaces de larga distancia mediante reflexión ionosférica. Algunos satélites de radioaficionado, como la red CubeSat, también incluyen frecuencias APRS dedicadas (ej. 145.825 MHz). Es fundamental que los usuarios verifiquen las asignaciones de su región para evitar interferencias, ya que el uso incorrecto de frecuencias puede afectar servicios críticos o saturar canales compartidos. La coordinación con clubs locales y organizaciones como la IARU (International Amateur Radio Union) garantiza un uso responsable y eficiente del espectro.
 
 ## LoRa
 
