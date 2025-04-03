@@ -1,4 +1,4 @@
-# Investigación APRS-LORA
+# Investigación APRS-LORA - Grupo #2
 
 El siguiente repositorio busca....
 
