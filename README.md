@@ -6,6 +6,9 @@ El siguiente repositorio busca....
 
 El Automatic Packet Reporting System (APRS) es un sistema de comunicación digital utilizado en el ámbito de la radioafición que permite el intercambio de información en tiempo real, como ubicaciones GPS, datos meteorológicos, mensajes cortos o alertas de emergencia. Desarrollado en la década de 1990, combina tecnologías de radio packet y protocolos digitales para crear una red descentralizada y autónoma.
 
+![image](https://github.com/user-attachments/assets/def326da-4361-4833-ac40-5fe74ba7b320)
+
+
 # Historia
 
 APRS nace en 1992 de la mente de Bob Bruninga (WB4APR), el cual era un ingeniero y radioaficionado que buscaba superar las limitaciones de las redes de packet radio de los años 80, ya que estas solo permitían mensajes de texto simples. Inspirado por sistemas militares como el PLRS, decidió adaptar el protocolo AX.25 para incluir datos geográficos, transformándolo en una herramienta para compartir ubicaciones en tiempo real.  Este esfuerzo se basó en su proyecto anterior, APLS, que había desarrollado en 1984 para rastrear vehículos en la Academia Naval, con el tiempo, APRS se convirtió en un sistema abierto y accesible para todos los radioaficionados.
