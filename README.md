@@ -6,15 +6,16 @@ El siguiente repositorio busca....
 <div align="justify">
 El Automatic Packet Reporting System (APRS) es un sistema de comunicación digital utilizado en el ámbito de la radioafición que permite el intercambio de información en tiempo real, como ubicaciones GPS, datos meteorológicos, mensajes cortos o alertas de emergencia. Desarrollado en la década de 1990, combina tecnologías de radio packet y protocolos digitales para crear una red descentralizada y autónoma.
 </div>
+
 ![image](https://github.com/user-attachments/assets/def326da-4361-4833-ac40-5fe74ba7b320)
 
 
 # Historia
-
+<div align="justify">
 APRS nace en 1992 de la mente de Bob Bruninga (WB4APR), el cual era un ingeniero y radioaficionado que buscaba superar las limitaciones de las redes de packet radio de los años 80, ya que estas solo permitían mensajes de texto simples. Inspirado por sistemas militares como el PLRS, decidió adaptar el protocolo AX.25 para incluir datos geográficos, transformándolo en una herramienta para compartir ubicaciones en tiempo real.  Este esfuerzo se basó en su proyecto anterior, APLS, que había desarrollado en 1984 para rastrear vehículos en la Academia Naval, con el tiempo, APRS se convirtió en un sistema abierto y accesible para todos los radioaficionados.
 
 Uno de los tantos momentos clave en la historia de APRS fue durante el Huracán Andrew en 1992, en ese entonces varios radioaficionados en Florida utilizaron el sistema para mapear las áreas afectadas y coordinar la ayuda, demostrando así su gran utilidad en situaciones de emergencia. A medida que avanzaba la tecnología, en los años 2000, APRS se benefició de la integración con GPS y la conexión a internet a través de servidores como APRS-IS, esto permitió que incluso aquellos sin equipos de radio pudieran acceder a la información en línea, lo cuál contribuyó a la utilización de APRS, además, se embarcó en proyectos innovadores, como la retransmisión de datos desde la Estación Espacial Internacional (ISS) y el seguimiento de globos estratosféricos.
-
+</div>
 # Capa Física
 
 APRS emplea principalmente la modulación AFSK (Audio Frequency-Shift Keying) en FM, utilizando el estándar Bell 202 que opera a 1,200 baudios con tonos de 1,200 Hz y 2,200 Hz. Esta elección permite la compatibilidad con equipos analógicos más antiguos y radios portátiles de bajo costo, como los modelos de Baofengk, para las transmisiones más rápidas se utiliza FSK a 9,600 baudios, conforme a la norma G3RUH, que es común en enlaces UHF o en satélites como la ISS, que funciona como un digipeater.
