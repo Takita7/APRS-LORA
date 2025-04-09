@@ -88,4 +88,5 @@ asd
 
 ## Referencia
 Este repositorio fue desarrollado siguiendo la guía proporcionada por richonguzman/LoRa_APRS_Tracker, la cual sirvió como base para la implementación y adaptación del proyecto.
+
 Link: https://github.com/richonguzman/LoRa_APRS_Tracker
