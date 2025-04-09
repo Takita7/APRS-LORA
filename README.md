@@ -1,7 +1,8 @@
 <div align="justify">
+    
 # Investigación APRS-LORA - Grupo #2
 
-El siguiente repositorio busca....
+El siguiente repositorio busca documentar la investigación realizada sobre la implementación del sistema APRS utilizando tecnología LoRa, con el objetivo de explorar su viabilidad, arquitectura y posibles aplicaciones en contextos de comunicación de largo alcance y bajo consumo energético. Se abordan aspectos técnicos fundamentales como la historia, la capa física, el ancho de banda y las frecuencias empleadas tanto en APRS como en LoRa, destacando sus características y puntos de integración.
 
 ## APRS
 <div align="justify">
