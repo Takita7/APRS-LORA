@@ -71,11 +71,12 @@ Los valores de $BW$ usados comúnmente en LoRaWAN son los de $125 kHz, 250kHz$ y
 **Capacidad de penetración:** Si se utiliza un $BW$ más estrecho, se puede aumentar la capacidad de la señal de atravesar obstáculos, como lo pueden ser la vegetación o edificios.
 
 # Frecuencia
-
+<div align="justify">
 Por otra parte, este protocolo permite trabajar en distintas bandas de frecuencia, como lo pueden ser $433 MHz$, $868 MHz$ y $915 MHz$, donde esto dependerá de la geografía y las regulaciones que se tengan en el país. La elección de la frecuencia a utilizar afecta de gran manera la cobertura, la capacidad de penetración y la interferencia que pueda estar presente en un área determinada, es por esto que se deben de tomar en cuenta estos últimos factores los cuales se pueden llamar externos, pero también se debe cuidar el uso del hardware a utilizar, puesto que, para lograr una comunicación exitosa, se necesita una buena elección tanto del dispositivo que maneja el módulo LoRa como de la antena encargada de enviar y/o recibir la información deseada.
 Es también en esta capa donde se gestiona la potencia de transmisión y la sensibilidad de la recepción para de esta manera optimizar el rendimiento de la red, por lo que es necesario ajustar la potencia de salida en los dispositivos que transmiten y en las pasarelas para poder garantizar una comunicación de calidad y con el menor consumo de energía posible. 
 
 Además de los aspectos mencionados anteriormente, la capa física presente en LoRaWAN también se influenciada por estándares y normativas relacionadas con regulaciones del espectro, la certificación de los equipos a utilizar y la interoperabilidad de dispositivos, la cual busca que las aplicaciones y los sistemas puedan intercambiar datos de manera segura y automática, dejando atrás los límites geográficos, políticos u organizativos.
+</div>
 
 ## Implementación
 
