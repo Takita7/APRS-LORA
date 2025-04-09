@@ -83,7 +83,10 @@ Además de los aspectos mencionados anteriormente, la capa física presente en L
 
 ## Implementación
 
-asd
+Para la implementación del programa se utilizó como tracker una TTGO ESP32 OLED LoRa v1, la cual permite la transmisión de datos a larga distancia mediante comunicación LoRa, además de contar con una pantalla OLED integrada que facilita la visualización de información en tiempo real.
+![WhatsApp Image 2025-04-09 at 12 07 11_282dd7ce](https://github.com/user-attachments/assets/30496859-a0aa-4475-9bb0-07f591160388)
+
+
 </div>
 
 ## Referencia
