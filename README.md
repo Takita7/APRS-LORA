@@ -87,6 +87,7 @@ Para la implementación del programa se utilizó como tracker una TTGO ESP32 OLE
 
 ![WhatsApp Image 2025-04-09 at 12 07 11_282dd7ce](https://github.com/user-attachments/assets/30496859-a0aa-4475-9bb0-07f591160388)
 
+![WhatsApp Image 2025-04-09 at 12 05 48_3ab3d2f5](https://github.com/user-attachments/assets/1eada943-031f-488d-974d-7d1d1d3120f5)
 
 </div>
 
